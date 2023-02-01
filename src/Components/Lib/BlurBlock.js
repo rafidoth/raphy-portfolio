@@ -1,15 +1,14 @@
 import React from 'react';
-import shape from '../../Assets/Images/shapeBlur.png'
-import cyanShape from '../../Assets/Images/cyanshape.png'
+import '../Animations/animationSVG.css';
 
 
 
 
-function BlurBlock(props) {
-    const blurAmount = " blur-[100px] opacity-[0.5]" 
+
+function BlurBlock() {
     return ( 
         <div>
-            {(props.color)? <img src={shape} alt="orange" className={blurAmount}/> :<img alt ="cyan" src={cyanShape} className={blurAmount}/>}      
+            <h1 className='vect2'></h1>
         </div>
     );
 }
