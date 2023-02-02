@@ -21,14 +21,14 @@ module.exports = {
         'orange': '#E46A48',
         'cyan': '#52E5FE',
         'color': '#691C17',
+        'red' :'#FF0303',
+        'blue' : '#240DEF'
       },
       animation: {
-        moverand : 'moverand 60s ease-in-out infinite',
+        'spin-slow': 'spin 30s linear infinite',
       },
       keyframes: {
-        moverand: {
-          
-        }
+       
       }
     },
   },

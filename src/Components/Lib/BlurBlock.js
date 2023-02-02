@@ -1,14 +1,15 @@
 import React from 'react';
-import '../Animations/animationSVG.css';
-
-
-
 
 
 function BlurBlock() {
     return ( 
-        <div>
-            <h1 className='vect2'></h1>
+        <div className='absolute z-0 opacity-50 animate-spin-slow'>
+            <div className='w-[400px] h-[20px] -rotate-45 blur-2xl bg-blue  '></div>
+            <div className='w-[400px] h-[20px] -rotate-45 blur-2xl bg-blue  '></div>
+            <div className='w-[400px] h-[20px] rotate-45 blur-2xl bg-red  '></div>
+            <div className='w-[400px] h-[20px] rotate-45 blur-2xl bg-red '></div>
+            <div className='w-[400px] h-[20px]  blur-2xl bg-blue '></div>
+            <div className='w-[400px] h-[20px]  blur-2xl bg-red '></div>
         </div>
     );
 }
